@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AYSChanger — бесплатный ченджер для Dota 2. Скачайте лаунчер, выбирайте предметы в инвентаре игры и собирайте свой образ.">
+  <meta name="theme-color" content="#090909">
+  <title>AYSChanger — косметика для Dota 2</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090909;--text:#f5f5f5;--muted:#a3a3a3;--accent:#e8e8e8;--line:#292929}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 900px 600px at 80% 0%,rgba(255,255,255,.075),transparent 75%),radial-gradient(ellipse 600px 500px at 0% 900px,rgba(255,255,255,.03),transparent 75%),var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}a:focus-visible,video:focus-visible{outline:3px solid var(--accent);outline-offset:6px}
+    .wrap{width:min(1120px,calc(100% - 48px));margin:auto}header{border-bottom:1px solid var(--line);background:rgba(9,9,9,.5)}nav{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-family:Georgia,serif;font-size:28px;letter-spacing:-1px}.brand span{color:var(--accent)}.navlinks{display:flex;gap:30px;color:var(--muted);font-size:14px}.navlinks a:hover{color:var(--text)}
+    .hero{padding:72px 0 38px}.eyebrow{display:flex;align-items:center;gap:10px;color:var(--accent);font-size:12px;letter-spacing:2px;text-transform:uppercase}.dot{width:7px;height:7px;background:var(--accent);border-radius:50%}
+    h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(44px,6vw,76px);letter-spacing:-2px;line-height:1.1;margin:22px 0}h1 em{font-style:normal;color:#c4c4c4}.intro{max-width:680px;color:var(--muted);font-size:18px;margin:0 0 28px}
+    .actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border-radius:8px;background:linear-gradient(180deg,#fff,#dedede);border:1px solid #fff;color:#111;font-weight:650;padding:15px 24px;box-shadow:0 4px 24px rgba(255,255,255,.08)}.button:hover{background:#fff;box-shadow:0 4px 30px rgba(255,255,255,.15)}.secondary{font-size:14px;color:var(--muted);border-bottom:1px solid var(--line)}
+    .shot{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:12px;margin-top:42px}.caption{font-size:12px;color:var(--muted);margin-top:12px}.section{padding:64px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:24px}.section-head p{color:var(--muted);margin:0;font-size:14px}h2{font-family:Georgia,serif;font-size:36px;font-weight:400;letter-spacing:-.7px;margin:0}
+    video{display:block;width:100%;aspect-ratio:16/9;background:#080808;border-radius:12px;border:1px solid var(--line)}.explain{max-width:750px;font-size:18px;color:var(--muted);margin:24px 0 0}.explain strong{color:var(--text);font-weight:500}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:32px}.number{color:var(--accent);font-size:13px;border-bottom:1px solid var(--line);padding-bottom:16px;display:block}h3{font-size:17px;margin:19px 0 9px;font-weight:600}.steps p{font-size:14px;color:var(--muted);margin:0}.closing{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}.closing p{color:var(--muted);max-width:650px;margin:16px 0}.closing a:not(.button){text-decoration:underline;text-underline-offset:4px}footer{border-top:1px solid var(--line);padding:24px 0 32px;color:var(--muted);font-size:12px}footer .wrap{display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:700px){.wrap{width:calc(100% - 32px)}nav{min-height:72px}.navlinks{gap:16px;font-size:12px}.brand{font-size:24px}.hero{padding-top:44px}h1{letter-spacing:-1px}.intro{font-size:16px}.section{padding:42px 0}.section-head{display:block}.section-head p{margin-top:10px}h2{font-size:30px}.steps{grid-template-columns:1fr 1fr;gap:28px 20px}.closing{grid-template-columns:1fr}.closing .button{justify-self:start}footer .wrap{flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header><nav class="wrap" aria-label="Основная навигация"><a class="brand" href="#">AYS<span>Changer</span></a><div class="navlinks"><a href="#demo">Демонстрация</a><a href="#start">Как начать</a></div></nav></header>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Бесплатно · Публичная тестовая версия</div>
+      <h1>Ваш герой.<br><em>Ваш стиль.</em></h1>
+      <p class="intro">Выбирайте любимые скины, предметы и окружение прямо в Dota 2. Запустите игру через AYSChanger и соберите свой образ в игровом инвентаре.</p>
+      <div class="actions"><a class="button" href="https://github.com/regngod/AYSChanger/releases/latest/download/AYSChanger.exe">Скачать для Windows <span aria-hidden="true">↓</span></a><a class="secondary" href="https://github.com/regngod/AYSChanger/releases">История обновлений ↗</a></div>
+      <img class="shot" src="launcher.png" width="1258" height="798" alt="Светлый лаунчер AYSChanger: экран готовности к игре с кнопкой «Запустить Dota 2»">
+      <p class="caption">Лаунчер AYSChanger</p>
+    </section>
+    <section class="section" id="demo">
+      <div class="section-head"><h2>Посмотрите разницу</h2><p>Сверху — AYSChanger. Снизу — DEFAULT.</p></div>
+      <video controls playsinline preload="metadata" aria-label="Сравнение AYSChanger и стандартного оформления Dota 2"><source src="demo.mp4" type="video/mp4">Ваш браузер не поддерживает видео. <a href="demo.mp4">Скачать демонстрацию</a></video>
+      <p class="explain"><strong>Косметика применяется только к вашему герою.</strong> Вы надеваете предметы в инвентаре самой Dota 2 — облик других игроков не меняется.</p>
+    </section>
+    <section class="section" id="start">
+      <h2>От скачивания до игры</h2>
+      <div class="steps">
+        <div><span class="number">01</span><h3>Откройте лаунчер</h3><p>Скачайте и запустите AYSChanger.exe.</p></div>
+        <div><span class="number">02</span><h3>Проверьте папку игры</h3><p>Если Dota 2 не определилась автоматически, укажите папку в настройках.</p></div>
+        <div><span class="number">03</span><h3>Запустите Dota 2</h3><p>Откройте игру через лаунчер и подождите 10–30 секунд.</p></div>
+        <div><span class="number">04</span><h3>Соберите свой образ</h3><p>Выбирайте и надевайте предметы в инвентаре Dota 2.</p></div>
+      </div>
+    </section>
+    <section class="section closing">
+      <div><div class="eyebrow">Тестируем вместе</div><h2 style="margin-top:16px">Помогите сделать AYSChanger лучше</h2><p>Это первая публичная тестовая версия. Нашли ошибку? <a href="https://github.com/regngod/AYSChanger/issues">Расскажите, что произошло</a>, и по возможности приложите скриншот.</p><p>Мы обновляем ченджер вслед за Dota 2. По кнопке скачивания всегда доступен последний релиз.</p></div>
+      <a class="button" href="https://github.com/regngod/AYSChanger/releases/latest/download/AYSChanger.exe">Скачать AYSChanger ↓</a>
+    </section>
+  </main>
+  <footer><div class="wrap"><span>AYSChanger · Бесплатный ченджер для Dota 2</span><span>Публичная тестовая версия</span></div></footer>
+</body>
+</html>
