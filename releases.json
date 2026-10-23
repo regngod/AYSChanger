@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23",
+  "download": {
+    "version": "1.0.77.1",
+    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.77.1/AYSChanger.exe",
+    "platform": "Windows x64",
+    "bytes": 30031360,
+    "sha256": "cbfed98b9327c19f4ebbfe921f41beb7f33c3121b8e4618a5584cc89dceb6bdb",
+    "publisher_certificate": false,
+    "virustotal_url": "https://www.virustotal.com/gui/file/cbfed98b9327c19f4ebbfe921f41beb7f33c3121b8e4618a5584cc89dceb6bdb/detection",
+    "virustotal_snapshot": null,
+    "virustotal_live_result_verified": false,
+    "filename": "AYSChanger.exe"
+  },
+  "independent_security_audit": {
+    "status": "not_conducted",
+    "reviewer": null,
+    "report_url": null,
+    "source_access": "private_by_arrangement"
+  },
+  "releases": [],
+  "release_history_public": false,
+  "publish_changelog": false,
+  "file_check_public": false,
+  "features": {
+    "unusual": true,
+    "dota_plus": false
+  },
+  "website_url": "https://regngod.github.io/AYSChanger/",
+  "updates": {
+    "feed": "https://regngod.github.io/AYSChanger/updates/launcher/latest.json",
+    "provider": "GitHub Releases"
+  }
+}

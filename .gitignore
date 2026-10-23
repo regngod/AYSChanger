@@ -1,0 +1,5 @@
+*.exe
+updates/launcher/releases/
+updates/test/
+AUDIT_BRIEF.md
+.ays-*
