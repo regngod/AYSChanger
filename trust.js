@@ -1,6 +1,6 @@
 'use strict';
 (() => {
-  const expected = 'eda380a3fdc8efa7e4165d95d21e113fef6d85d35057a02abe986e7f8b79eac0';
+  const expected = '092fd060232216114cba723eba3dc80952c33592d682c0303db8ec8c8bb88921';
   const input = document.getElementById('verify-file');
   const result = document.getElementById('verify-result');
   let request = 0;
@@ -25,8 +25,8 @@
     try {
       const digest = await crypto.subtle.digest('SHA-256', await file.arrayBuffer());
       const actual = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, '0')).join('');
-      if (actual === expected) show('Хеш совпадает с версией 1.0.81.1 на этой странице. Это подтверждает совпадение файла, но не его безопасность.', 'match');
-      else show('Хеш не совпадает с версией 1.0.81.1 на этой странице. Возможно, выбрана другая версия или другой файл.\nSHA256 выбранного файла: ' + actual, 'mismatch');
+      if (actual === expected) show('Хеш совпадает с версией 1.0.83.1 на этой странице. Это подтверждает совпадение файла, но не его безопасность.', 'match');
+      else show('Хеш не совпадает с версией 1.0.83.1 на этой странице. Возможно, выбрана другая версия или другой файл.\nSHA256 выбранного файла: ' + actual, 'mismatch');
     } catch (_) {
       show('Не удалось прочитать файл или вычислить хеш. Попробуйте снова либо используйте PowerShell ниже.', 'error');
     }
