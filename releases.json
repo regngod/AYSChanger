@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-28",
   "download": {
-    "version": "1.0.83.1",
-    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.83.1/AYSChanger.exe",
+    "version": "1.0.115.1",
+    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.115.1/AYSChanger.exe",
     "platform": "Windows x64",
-    "bytes": 29952512,
-    "sha256": "092fd060232216114cba723eba3dc80952c33592d682c0303db8ec8c8bb88921",
+    "bytes": 103917568,
+    "sha256": "6c030862f8a62a76b86808b7a88ebea883dd32ff1dd5529b3ac9d30ac4b4fd63",
     "publisher_certificate": false,
-    "virustotal_url": "https://www.virustotal.com/gui/file/092fd060232216114cba723eba3dc80952c33592d682c0303db8ec8c8bb88921/detection",
+    "virustotal_url": "https://www.virustotal.com/gui/file/6c030862f8a62a76b86808b7a88ebea883dd32ff1dd5529b3ac9d30ac4b4fd63/detection",
     "virustotal_snapshot": null,
     "virustotal_live_result_verified": false,
     "filename": "AYSChanger.exe"
@@ -25,11 +25,17 @@
   "file_check_public": false,
   "features": {
     "unusual": true,
-    "dota_plus": false
+    "dota_plus": false,
+    "gemstone": true,
+    "protracker": true,
+    "ayspicker": true
   },
   "website_url": "https://regngod.github.io/AYSChanger/",
   "updates": {
     "feed": "https://regngod.github.io/AYSChanger/updates/launcher/latest.json",
-    "provider": "GitHub Releases"
+    "provider": "GitHub Releases",
+    "manual_bootstrap_required": true,
+    "manual_bootstrap_note": "Для перехода со старого лаунчера скачайте полный EXE один раз.",
+    "max_update_bytes": 524288000
   }
 }
