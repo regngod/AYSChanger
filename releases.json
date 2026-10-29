@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "download": {
-    "version": "1.0.115.1",
-    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.115.1/AYSChanger.exe",
+    "version": "1.0.126.1",
+    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.126.1/AYSChanger.exe",
     "platform": "Windows x64",
-    "bytes": 103917568,
-    "sha256": "6c030862f8a62a76b86808b7a88ebea883dd32ff1dd5529b3ac9d30ac4b4fd63",
+    "bytes": 31388672,
+    "sha256": "f7a174a2544a67bff4aa24c6c5f991465c0b3621c77db20c7cfee2de86aece37",
     "publisher_certificate": false,
-    "virustotal_url": "https://www.virustotal.com/gui/file/6c030862f8a62a76b86808b7a88ebea883dd32ff1dd5529b3ac9d30ac4b4fd63/detection",
+    "virustotal_url": "https://www.virustotal.com/gui/file/f7a174a2544a67bff4aa24c6c5f991465c0b3621c77db20c7cfee2de86aece37/detection",
     "virustotal_snapshot": null,
     "virustotal_live_result_verified": false,
     "filename": "AYSChanger.exe"
@@ -34,8 +34,8 @@
   "updates": {
     "feed": "https://regngod.github.io/AYSChanger/updates/launcher/latest.json",
     "provider": "GitHub Releases",
-    "manual_bootstrap_required": true,
-    "manual_bootstrap_note": "Для перехода со старого лаунчера скачайте полный EXE один раз.",
+    "manual_bootstrap_required": false,
+    "manual_bootstrap_note": "Обновление доступно прямо в лаунчере.",
     "max_update_bytes": 524288000
   }
 }
