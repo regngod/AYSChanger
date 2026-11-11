@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-12",
   "download": {
-    "version": "1.0.135.46",
-    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.135.46/AYSChanger.exe",
+    "version": "1.0.135.65",
+    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.135.65/AYSChanger.exe",
     "platform": "Windows x64",
-    "bytes": 58352640,
-    "sha256": "ea8e0ad7588153de54bed84b49b583ee3c1132f1cdd49713571fdd26fe630934",
+    "bytes": 58505728,
+    "sha256": "7521efa0f8fb5f50153a1e993a2a8ad0c6150180fd16be4e10dc39c399aef451",
     "publisher_certificate": false,
-    "virustotal_url": "https://www.virustotal.com/gui/file/ea8e0ad7588153de54bed84b49b583ee3c1132f1cdd49713571fdd26fe630934/detection",
+    "virustotal_url": "https://www.virustotal.com/gui/file/7521efa0f8fb5f50153a1e993a2a8ad0c6150180fd16be4e10dc39c399aef451/detection",
     "virustotal_snapshot": null,
     "virustotal_live_result_verified": false,
     "filename": "AYSChanger.exe"
