@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-17",
   "download": {
-    "version": "1.0.135.67",
-    "file": "https://github.com/regngod/AYSChanger/releases/download/v1.0.135.67/AYSChanger.exe",
+    "version": "Online 16",
+    "file": "https://github.com/regngod/AYSChanger/releases/download/online-v16/AYSChanger.exe",
     "platform": "Windows x64",
-    "bytes": 58505216,
-    "sha256": "feaf605d626da67af6bb82991b5fe96fb50db70b76699f562780d8405ce7af3b",
+    "bytes": 26530816,
+    "sha256": "10448db99710162202f0fd6d1002e0c388e8672cd716b2d16d44ffc26875fbd2",
     "publisher_certificate": false,
-    "virustotal_url": "https://www.virustotal.com/gui/file/feaf605d626da67af6bb82991b5fe96fb50db70b76699f562780d8405ce7af3b/detection",
+    "virustotal_url": "https://www.virustotal.com/gui/file/10448db99710162202f0fd6d1002e0c388e8672cd716b2d16d44ffc26875fbd2/detection",
     "virustotal_snapshot": null,
     "virustotal_live_result_verified": false,
     "filename": "AYSChanger.exe"
@@ -34,8 +34,8 @@
   "updates": {
     "feed": "https://regngod.github.io/AYSChanger/updates/launcher/latest.json",
     "provider": "GitHub Releases",
-    "manual_bootstrap_required": false,
-    "manual_bootstrap_note": "Обновление доступно прямо в лаунчере.",
+    "manual_bootstrap_required": true,
+    "manual_bootstrap_note": "Для перехода закройте Dota 2 и старый лаунчер, замените AYSChanger.exe и откройте новый файл.",
     "max_update_bytes": 524288000
   }
 }
