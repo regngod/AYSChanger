@@ -1,6 +1,6 @@
 'use strict';
 (() => {
-  const expected = 'b2aac539fc9965a2b7d6fec905e8f1d532ddb8de711716c2d482bcfc02aaba01';
+  const expected = 'c883ac0b517a9b456e7b23f0837d27660338b57bb95a0f24cf144647e269251b';
   const input = document.getElementById('verify-file');
   const result = document.getElementById('verify-result');
   let request = 0;
